@@ -21,8 +21,8 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IuY-aK-3lg">
-                                <rect key="frame" x="149" y="397" width="77" height="49"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <rect key="frame" x="137" y="378" width="101" height="86"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
                                 <state key="normal" title="まわす">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -61,7 +61,8 @@
                                 <rect key="frame" x="20" y="143" width="335" height="273"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AI0-4E-0nr">
-                                <rect key="frame" x="118" y="491" width="139" height="63"/>
+                                <rect key="frame" x="72" y="467" width="231" height="106"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="戻る"/>
                                 <connections>
                                     <action selector="modoru" destination="0hN-fw-M0s" eventType="touchUpInside" id="q2L-h7-FKe"/>
@@ -71,6 +72,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="haikeiImageView" destination="ETD-Jv-bTy" id="jfU-Pz-bLC"/>
+                        <outlet property="monsterImageView" destination="UfX-0l-o0w" id="1kk-0o-KZz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GfX-Hb-SxE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
